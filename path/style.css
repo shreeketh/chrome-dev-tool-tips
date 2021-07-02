@@ -44,9 +44,8 @@
 
 .actions {
     width: 800px;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
+    position: fixed;
+    bottom: 20px;
     display: flex;
     justify-content: space-between;
 }
