@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#4 Render Command</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .items {
+            line-height: 35pt;
+        }
+    </style>
+
+    <script>
+        function clickAction(){
+            var ele = document.getElementById('test')
+            ele.innerHTML = 'Updated this div'
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <img src="../img/logo.png" class="logo" alt="" srcset="">
+        <div class="number">
+            #4
+        </div>
+        <div class="content">
+            <div class="header">&lt; Show Rendering /&gt; </div>
+
+            <div class="items">
+                <ul>
+                    <li> To debug performance </li>
+                    <li> Animation </li>
+                    <li> Example</li>
+                    <li> Some cool tools</li>
+                </ul>
+            </div>
+            <div class="some-extra">
+                <code>
+   <div id="test">some text</div>
+   <br>
+   <br>
+
+   <button onclick="clickAction()">Click me!</button>
+
+   <br>
+   <a href="https://www.amazon.in/" target="_blank">https://www.amazon.in/</a>
+   
+                </code>
+
+            </div>
+
+            <div class="actions">
+                <div class="prev"><a href="3.html">Prev</a></div>
+                <div class="next"><a href="5.html">Next</a></div>
+            </div>
+        </div>
+        <div class="hash">#sreeketh</div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#10</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .items {
+            font-size: 20px;
+            line-height: 25pt;
+        }
+    </style>
+    <script>
+        function simpleFunction(){
+            var a=10;
+            a=11;
+            a=12;
+            debugger;
+            a=13;
+            document.getElementById('sample').innerHTML = 'NEW TEXT'
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <img src="../img/logo.png" class="logo" alt="" srcset="">
+        <div class="number">
+            #10
+        </div>
+        <div class="content">
+            <div class="header">&lt; Breakpoint; /&gt; </div>
+
+            <div class="items">
+                <ul>
+                    <li> Debugger;</li>
+                    <li> Search File</li>
+                    <li> Open file and add debugger </li>
+                    <li> Disable Debugger</li>
+                    <li> DOM manupulation debugger</li>
+                    <li> Step Next</li>
+                </ul>
+            </div>
+            <div class="some-extra">
+                <h4 id="sample">Sample Text!</h4>
+                <button onclick="simpleFunction()">Click me!</button>
+
+            </div>
+
+            <div class="actions">
+                <div class="prev"><a href="9.html">Prev</a></div>
+                <div class="next"><a href="11.html">Next</a></div>
+            </div>
+        </div>
+        <div class="hash">#sreeketh</div>
+    </div>
+
+</body>
+
+</html>

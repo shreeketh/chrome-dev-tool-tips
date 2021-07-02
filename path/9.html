@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#9</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .items {
+            font-size: 20px;
+            line-height: 20pt;
+        }
+    </style>
+
+    <script>
+        var arr = [{
+            name: 'Sreeketh',
+            company: 'BookMyShow',
+            native: 'Sringeri'
+        },
+        {
+            name: 'Shridhar',
+            company: 'BookMyShow',
+            native: 'Blr'
+        },
+        {
+            name: 'Abhipray',
+            company: 'BookMyShow',
+            native: 'Blr'
+        }
+        ]
+        function justLog() {
+            console.log('Simple Console log')
+        }
+
+        function styledLog() {
+            console.log('%cSimple Console log', "color:blue; font-size:20px;")
+        }
+
+        function redStyledLog(e) {
+            console.log('%cSimple Console log', "color:red; font-size:30px;")
+        }
+
+        function logTable() {
+            console.table(arr)
+        }
+
+        function traceLog(){
+            console.trace(arr)
+        }
+
+        function justWarn() {
+            console.warn('Hey! it is warning :)')
+        }
+
+        function justError(){
+            console.error('It is an error!')
+        }
+
+        function justInfo() {
+            console.info('Hey! it is just for your info :)')
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <img src="../img/logo.png" class="logo" alt="" srcset="">
+        <div class="number">
+            #9
+        </div>
+        <div class="content">
+            <div class="header">&lt; Console /&gt; </div>
+
+            <div class="items">
+                <ul>
+                    <li>Use as a calculator</li>
+                    <li onclick="justLog()"> log </li>
+                    <li>{Wrap}</li>
+                    <li onclick="styledLog()"> styling: <span onclick="redStyledLog()">example</span></li>
+                    <li onclick="logTable()">Table</li>
+                    <li onclick="traceLog()">Trace</li>
+                    <li onclick="justWarn()">Warning</li>
+                    <li onclick="justInfo()">Info</li>
+                    <li onclick="justError()">Error</li>
+                    <li>Assert</li>
+                    <li>Control + K to clear</li>
+                    <li>Control.dir</li>
+                    <li>Hide Network logs</li>
+                </ul>
+            </div>
+            <div class="some-extra">
+                <code>
+    <pre>
+    <hr/>
+    - console.log('Simple Console log')
+    - console.log('%cSimple Console log', "color:blue; font-size:20px;")
+    - console.log('%cSimple Console log', "color:red; font-size:30px;")
+    - console.table(arr)
+    <hr/>
+    - console.assert(1==2, 'It is an error')
+    - console.assert(1==1, 'It is an error')
+
+    </pre>
+                </code>
+
+            </div>
+
+            <div class="actions">
+                <div class="prev"><a href="8.html">Prev</a></div>
+                <div class="next"><a href="10.html">Next</a></div>
+            </div>
+        </div>
+        <div class="hash">#sreeketh</div>
+    </div>
+
+</body>
+
+</html>

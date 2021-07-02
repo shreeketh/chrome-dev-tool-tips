@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed-up development with Chrome DevTools: Shreeketh </title>
+    <style>
+        .container {
+            display: flex;
+            width: 100vw;
+            /* height: 100vh; */
+            margin-top: 150px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .chrome {
+            position: relative;
+        }
+
+        .spinner {
+            position: absolute;
+            width: 300px;
+            left: 70px;
+            top: 0px;
+            -webkit-animation: spin 4s infinite linear;
+        }
+
+        .logo {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            width: 200px;
+        }
+
+        .desc {
+            position: absolute;
+            bottom: 40px;
+            font-size: 40px;
+            /* color: darkgray; */
+            font-family: "Lucida Console", "Courier New", monospace;
+        }
+
+        .name {
+            position: absolute;
+            bottom: 20px;
+            color: #ccc;
+        }
+
+        .hash {
+                color: grey;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-weight: 800;
+                font-size: 20px;
+            }
+        
+        .redir {
+                position: absolute;
+                bottom: 160px;
+        }
+
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/chrome.png" class="chrome" alt="" srcset="">
+        <img src="img/circle.png" class="spinner" alt="" srcset="">
+        <img src="img/logo.png" class="logo" alt="" srcset="">
+        <div class="desc">
+            <h3>Speed-up development with Chrome DevTools</h3>
+        </div>
+
+        <a class="redir" href="/path/0.html">Lets Go!</a>
+        <div class="name">
+            by <span class="hash">Sreeketh.k@</span>
+        </div>
+    </div>
+</body>
+
+</html>

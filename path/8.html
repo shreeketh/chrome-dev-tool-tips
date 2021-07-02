@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#8</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .items {
+            line-height: 35pt;
+        }
+
+        .animate-it {
+            height: 250px;
+            width: 250px;
+            padding: 10px;
+            background-color: #ccc;
+            -webkit-animation: spin 4s infinite linear;
+            animation-timing-function: ease-out;
+        }
+
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="../img/logo.png" class="logo" alt="" srcset="">
+        <div class="number">
+            #8
+        </div>
+        <div class="content">
+            <div class="header">&lt; Flex /&gt; </div>
+
+            <div class="items">
+                <ul>
+                    <li> display: flex;</li>
+                    <li> Animation</li>
+                    <li> Color picker</li>
+                </ul>
+            </div>
+            <div class="some-extra">
+       <img class="animate-it" src="../img/circle.png" alt="" srcset="">
+
+            </div>
+
+            <div class="actions">
+                <div class="prev"><a href="7.html">Prev</a></div>
+                <div class="next"><a href="9.html">Next</a></div>
+            </div>
+        </div>
+        <div class="hash">#sreeketh</div>
+    </div>
+
+</body>
+
+</html>
